@@ -18,6 +18,12 @@
   "homepage": "https://github.com/SoftStackFactory/fix-errors#readme",
   "dependencies": {
     "jest": "^23.6.0",
+    "jest-cli": "^23.6.0"
+  },
+  "devDependencies": {
     "jest-expect-message": "SoftStackFactory/jest-expect-message"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "jest-expect-message"
   }
 }
