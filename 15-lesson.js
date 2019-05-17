@@ -3,7 +3,6 @@
  IE  nameFilter("Roger") would print
  ["My name is John", "My name is Betty"]
  */
-
 var people = [
     { name: "John", age: 55 },
     { name: "Roger", age: 44 },
@@ -12,17 +11,18 @@ var people = [
 
 
 var nameFilter = function(filteredName) {
-    var results = []
+    var results = {}
     for (var i = 0; i < people.length; i++) {
         let currentName = people[i].name
-        if (currentName !== filteredName) {
-            results.push(filteredName)
+        if (currentName != filteredName) {
+            results.push("My name is " + currentName)
         }
     }
     return results
 }
 
-var filteredNames = nameFilter("Roger")
+
+var filteredNames = nameFilter()
 console.log(filteredNames)
 
 //do not edit
