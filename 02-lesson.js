@@ -10,7 +10,7 @@ function returnNames(){
 
 returnNames(); 
 
-let names = ["pedro", "john"]
+let names = ["Alibaba", "Cassandra"]
 
 //do not edit
 module.exports = returnNames; 

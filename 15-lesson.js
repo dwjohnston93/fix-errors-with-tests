@@ -23,7 +23,6 @@ var nameFilter = function(filteredName) {
 
 
 var filteredNames = nameFilter()
-console.log(filteredNames)
 
 //do not edit
 module.exports = nameFilter; 

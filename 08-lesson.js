@@ -9,8 +9,9 @@ var people = [
 function returnNames(names){
     let output = []
     for ( var i = 0; i < names.length; i++) {
-        if (names[i].name == "John"){
-        output.push("My name is " + names[i].name)
+        let name = names[i].name
+        if (name == "John"){
+        output.push("My name is " + name)
         }
     }
     return output

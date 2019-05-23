@@ -12,7 +12,7 @@ var people = [
 
 var nameFilter = function(name) {
     let output = [];
-    let filteredName = name
+    let name = "Eric"
     for (let i = 0; i < people.length; i++) {
         let name = people[i].name
         if (name != filteredName) {

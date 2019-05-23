@@ -9,7 +9,7 @@ function returnNames(names){
     return output
 }
 
-returnNames([ "John", "Alex", "Mike", "Roger" ])
+returnNames([ "Alibaba", "Cassandra", "AJ"])
 // ctrl c to stop terminal
 
 //do not edit

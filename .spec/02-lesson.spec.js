@@ -1,4 +1,4 @@
-const returnNames = require('../05-lesson');
+const returnNames = require('../02-lesson');
 
 test("Adds 'My name is' in front of all names in name array" , () => {
     expect(returnNames(["Alibaba", "Cassandra", "AJ"])).toContain('My name is Alibaba', 'My name is Cassandra', 'My name is AJ');
