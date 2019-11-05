@@ -24,22 +24,22 @@ forking and cloning can be found
 
 
 ## Running the files
-Step 1
+Step 1 - 
     cd into the projects directory after cloning. 
 ```
  cd fix-errors
  
 ```
 
-Step 2 
-
+Step 2 - 
     Run the following command. After cloning a repo we always need to run npm install to get all the code the 
     repository depends on.
+    
 ```
     npm install
 ```
 
-Step 3 
+Step 3 -
     To run any javascript file against the tests the command is:
 ```
 npm test <file name>
