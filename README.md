@@ -30,16 +30,25 @@ Step 1
  cd fix-errors
  
 ```
+
 Step 2 
-    To run any javascript file the command is:
+
+    Run the following command. After cloning a repo we always need to run npm install to get all the code the repository depends on.
+    
+```
+    npm install
+```
+
+Step 3 
+    To run any javascript file against the tests the command is:
 
 ```
-node <file name>
+npm test <file name>
 
 ```
 For example to run lesson 1.
 ```
-node lesson.js
+npm test 01-lesson
 
 ```
 ## Once You Fix the Error
