@@ -3,7 +3,7 @@
 
 function returnNames(names){
     let output = []
-    for ( var i = 0; i < names.length; i++ {
+    for ( var i = 0; i < names.length; i++) {
         output.push("My name is " + names[i])
     }
     return output

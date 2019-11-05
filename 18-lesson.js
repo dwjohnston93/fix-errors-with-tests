@@ -1,8 +1,10 @@
-/*Invoke the anonymous function that is a parameter of the nameFilter function
-Expected output:
+/* Assuming you completed lesson 16 and 17 properly. Now rewrite
+the anonymous function using the arrow function.
 
-        This ran
-        This ran
+Expected  output in console:
+
+        This Ran 0
+        This Ran 1 
         ['My name is John', 'My name is Roger']
 */
 var people = [
@@ -18,14 +20,15 @@ var nameFilter = function(filteredName, anonymousFunction) {
         let currentName = people[i].name
         if (currentName != filteredName) {
             results.push("My name is " + currentName)
+
         }
     }
+
     return results
 }
 
-//only edit the nameFilter function above
-var filteredNames = nameFilter("Betty", function(name) {
-    return "This ran"
+var filteredNames = nameFilter("Betty", function(num){
+    return "This ran " 
 })
 
 //do not edit

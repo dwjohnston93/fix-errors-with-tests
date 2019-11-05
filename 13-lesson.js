@@ -14,7 +14,6 @@ var nameFilter = function(filteredName) {
             results.push("My name is " + name)
         }
     }
-    console.log("results:", results)
     return results
 }
 var selectName = function() {

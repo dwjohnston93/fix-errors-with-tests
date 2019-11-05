@@ -17,8 +17,7 @@ var nameFilter = function(filteredName) {
     } 
 }
 
-var filteredNames = nameFilter("Betty")
-console.log(filteredNames)
+var filteredNames = nameFilter("Roger")
 
 //do not edit
 module.exports = nameFilter; 

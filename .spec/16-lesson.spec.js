@@ -1,7 +1,7 @@
 const nameFilter = require('../16-lesson.js')
 const filteredNames = require('../16-lesson.js')
 
-test("The anonymous function logs 'This ran' twice to the console", async () => {
+test("The anonymous function returns 'This ran' twice", async () => {
     const mockCallback = await jest.fn( function(name) {
         return "This ran"
     });
