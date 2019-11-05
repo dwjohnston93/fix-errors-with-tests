@@ -33,7 +33,8 @@ Step 1
 
 Step 2 
 
-    Run the following command. After cloning a repo we always need to run npm install to get all the code the repository depends on.
+    Run the following command. After cloning a repo we always need to run npm install to get all the code the 
+    repository depends on.
 ```
     npm install
 ```
